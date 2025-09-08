@@ -203,7 +203,7 @@ services:
   # y genera predicciones de fraude en tiempo real
   app:
     build: 
-      context: .
+      context: /app 3.
       dockerfile: Dockerfile
     container_name: fraud-detection-app
     restart: unless-stopped
